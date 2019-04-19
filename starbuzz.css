@@ -9,6 +9,7 @@ body {
   background-color: #675c47;
   margin:           10px 10px 0px 10px;
   height:           108px;
+
 }
 
 #main {
@@ -97,4 +98,23 @@ div#tableRow{
   padding: 15px;
   vertical-align: top;
 
+}
+
+.wdnmd{
+ 
+
+  background-image:url(images/header.gif);
+  
+  float: left;
+  width: 400px;
+  height: 108px;
+
+
+}
+.wdnm{
+  background-image:url(images/header.gif);
+  float: right;
+  width: 400px;
+  height: 108px;
+  background-position: -400px 0px;
 }
