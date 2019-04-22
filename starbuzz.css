@@ -118,3 +118,18 @@ div#tableRow{
   height: 108px;
   background-position: -400px 0px;
 }
+
+#coupon{
+  position: fixed;
+  top: 350px;
+  left: -90px;
+}
+#coupon a, img{
+  border: none
+
+}
+#award{
+  position: absolute;
+  top: 30px;
+  left: 365px;
+}
