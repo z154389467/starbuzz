@@ -1,0 +1,14 @@
+16. 获取今天的星期
+
+
+--17. 获取今天的月份（使用2种方式）
+
+
+--18. 为Race表增加一列，显示行序号，并将行序号与Race表中的内容存放在临时表#temp中
+SELECT ROW_NUMBER() OVER(ORDER BY RaceId) [No.],* INTO #temp FROM Race
+SELECT * FROM #temp
+
+--19. 基于Team,TeamMember表 查询出团队信息及团队所具有的成员数量
+
+
+--20. 基于Registration，Competitor表，查询出平均花费（Cost）大于等于200的参赛者信息
