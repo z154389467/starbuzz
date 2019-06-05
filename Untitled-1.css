@@ -1,0 +1,370 @@
+body {
+  min-width: 1100px;
+  height: 7371px;
+  margin: 0;
+  color: #2c3a46;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.6em;
+  float: left;
+}
+.phptpl-header {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-bottom: 1px solid #ededed;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 200;
+  transition: all 0.5s ease-in;
+
+}
+.phptpl-header a {
+  text-decoration: none;
+}
+.phptpl-header .header-container .logo {
+  display: inline-block;
+  width: 72px;
+  height: 25px;
+  margin-top: 22.5px;
+  background-size: 72px 25px;
+  background-image: url(123.png);
+}
+.phptpl-header .header-container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1100px;
+  height: 70px;
+  zoom: 1;
+}
+.nav-link-container {
+  display: inline-block;
+  width: 60px;
+  height: 26px;
+  margin-left: 10px;
+  margin-bottom: -1px;
+  
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.nav-link {
+  margin: 0;
+  float: left;
+  width: 78px;
+  color: #999;
+  font-size: 10px;
+  font-family: 'PingFang SC';
+  font-weight: 300;
+  line-height: 13px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+.phptpl-header .header-container .nav-list {
+  width: 850px;
+  height: 70px;
+  float: right;
+  zoom: 1;
+}
+.phptpl-header .header-container .nav-list > li {
+  float: left;
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  padding: 0px 20px;
+}
+.phptpl-header .header-container .nav-list .caret-margin {
+  margin-right: 16px;
+}
+.phptpl-header .header-container .btn-login {
+  width: 80px;
+  height: 30px;
+  line-height: 28px;
+  display: inline-block;
+  border: 1px solid #2B90ED;
+  color: #2B90ED;
+  text-align: center;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.phptpl-header .header-container li.login_common_ {
+  padding: 0px 0px 0px 20px;
+}
+.phptpl-header .header-container li.register_common_ {
+  padding: 0px 0px 0px 10px;
+}
+.phptpl-header .header-container .btn-register_ {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  background-color: #2B90ED;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.phptpl-header .header-container .nav-list .current-highlight {
+  color: #FF4444 ;
+}
+.product-center{
+  color: #2c3a46;
+}
+.header-container .nav-list a:hover{
+  color:#ff0000; 
+}
+
+
+
+.yiceng{
+  height: 420px;
+  width: 100%;
+}
+.erceng{
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.san{
+  height: 100%;
+  z-index: 1;
+  position: relative;
+}
+.si{
+  height: 100%;
+  position: relative;
+  width: 1906px;
+}
+.datupian{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%;
+}
+.tupianli{    
+  position: absolute;
+  width: 1000px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+.tupianli h3 {
+  font-size: 44px;
+  margin: 100px 0 7px;
+  line-height: 62px;
+  color: #fff;
+  font-weight: normal;
+}
+.si .tupianli p {
+  font-size: 20px;
+  color: #fff;
+  margin: 0px 0px 55px;
+    
+}
+.ljgd{
+  background-color: #fff;
+  padding: 12px 42px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 2px;
+  color: #eb737f
+}
+.L{
+  position: absolute;
+  right: 1130px;
+  left: -90px;
+  width: 60px;
+  height: 60px;
+  background-size: 100% 100%;
+  background-image: url(L.png);
+  margin-top: -22px;
+  z-index: 10;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  top: 210px;
+}
+.R{
+  position: absolute;
+  right: -90px;
+  left: 1130px;
+  width: 60px;
+  height: 60px;
+  background-size: 100% 100%;
+  background-image: url(R.png);
+  margin-top: -22px;
+  z-index: 10;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  top: 210px;
+
+}
+.tupianli2{    
+  position: absolute;
+  width: 1000px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.sanlan{
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: 388px;
+
+}
+.yi{    
+  margin: 0 5px;
+  width: 50px;
+  height: 3px;
+  border-radius: 0;
+  opacity: .5;
+  background: #fff;
+  position: relative;
+  left: 45%;
+  cursor: pointer;
+  display: inline-block;
+ 
+
+}
+.er{
+  margin: 0 5px;
+  width: 50px;
+  height: 3px;
+  border-radius: 0;
+  opacity: .5;
+  background: #fff;
+  position: relative;
+  left: 45%;
+  cursor: pointer;
+  display: inline-block;
+ 
+}
+.sa{
+  margin: 0 5px;
+  width: 50px;
+  height: 3px;
+  border-radius: 0;
+  opacity: .5;
+  background: #fff;
+  position: relative;
+  left: 45%;
+  cursor: pointer;
+  display: inline-block;
+ 
+}
+.zhongyuyaojieshule{
+  height: 620px;
+  width: 1906px;
+
+}
+.waikuang{
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  zoom: 1;
+  height: 645.688px;
+}
+.waikuang h3{
+  font-size: 28px;
+  color: #333;
+  letter-spacing: 0;
+  margin: 0px;
+  height: 40px;
+  padding: 90px 0px 0px;
+  line-height: 40px;
+  padding-top: 90px;
+  text-align: center;
+  font-weight: normal;
+}
+.xiabian{
+  margin-top: 70px;
+  height: 445.688px;
+  width: 1100px;
+}
+.qian{
+  height: 445.688px;
+  width: 485px;
+  position: absolute;
+}
+.hou{
+  height: 445.688px;
+  width: 615px;
+  top: 200px;
+  left: 485px;
+  position: absolute;
+}
+.zi{
+  height: 53px;
+  margin-bottom: 28px;
+}
+.anniu{
+  
+  height: 42px;
+  margin-bottom: 28px;
+  
+}
+.mfsy{
+  font-size: 14px;
+  padding: 10px 42px;
+  border-radius: 2px;
+  display: inline-block;
+  background-color: #2B90ED;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.gnjs{
+  border: 1px solid #38f;
+  color: #38f;
+  padding: 9px 42px;
+  margin-left: 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  display: inline-block;
+  text-decoration: none;
+}
+.dazi{
+  color: #333;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0;
+  margin: 18px 0 0 0;
+}
+.xiaozi{
+  margin-top: 5px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #999;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 200
+}
+
+
+
